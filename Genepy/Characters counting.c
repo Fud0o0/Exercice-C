@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(void) {
-    // I prefilled this variable for you, you don't need to touch it.
+    
     const char *whetting_your_appetite = (
         "Ada Lovelace's notes were labelled alphabetically from A to G. "
         "In Note G, she describes an algorithm for the Analytical Engine "
@@ -13,7 +13,7 @@ int main(void) {
         "for this reason."
     );
 
-    // Enter your code below.
+    
     printf("%zu\n", strlen(whetting_your_appetite));
 
     return 0;
